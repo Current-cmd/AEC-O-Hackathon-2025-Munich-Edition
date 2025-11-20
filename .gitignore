@@ -1,0 +1,36 @@
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.dll
+*.exe
