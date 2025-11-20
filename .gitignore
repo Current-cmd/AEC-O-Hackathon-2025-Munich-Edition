@@ -1,4 +1,27 @@
-*.00*.rvt
-*.bak
-*.log
+```text
+# --- OS Files ---
 .DS_Store
+Thumbs.db
+
+# --- Revit & BIM Junk ---
+# Revit Backup Files (e.g., Project1.0001.rvt)
+*.00??.rvt
+*.00??.rfa
+*.00??.rte
+# Revit journal files
+*.txt
+Journals/
+
+# --- CAD Junk ---
+*.bak
+*.dwl
+*.dwl2
+*.lock
+
+# --- Code/IDE Junk ---
+.vscode/
+.idea/
+*.log
+node_modules/
+__pycache__/
+*.env
